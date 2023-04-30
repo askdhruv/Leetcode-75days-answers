@@ -1,4 +1,4 @@
-//class Solution {
+class Solution {
 public:
     vector<int> findBall(vector<vector<int>>& grid) {
         vector<int> result;
