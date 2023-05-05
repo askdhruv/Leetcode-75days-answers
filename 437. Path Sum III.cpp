@@ -4,7 +4,7 @@ class Solution {
     if (root == nullptr)
       return 0;
     return dfs(root, sum) +
-           pathSum(root->left, sum) +
+           pathSum(root->left, sum) + 
            pathSum(root->right, sum);
   }
 
